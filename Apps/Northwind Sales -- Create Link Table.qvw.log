@@ -1,0 +1,361 @@
+﻿2017-06-29 22:57:12      Execution started.
+2017-06-29 22:57:12      QlikView Desktop Version      12.10.0+2016-11-15 10:26:20.HEAD.Component.Version
+2017-06-29 22:57:12      CPU Target                    x64
+2017-06-29 22:57:12      Operating System              Windows 10 Home  (64 bit edition)
+2017-06-29 22:57:12      Wow64 mode                    Not using Wow64
+2017-06-29 22:57:13      Language                      0409 English (United States) English
+2017-06-29 22:57:13      Country                       1 United States United States
+2017-06-29 22:57:13      MDAC Version                  6.3.9600.16384
+2017-06-29 22:57:13      MDAC Full Install Version     6.3.9600.16384
+2017-06-29 22:57:13      PreferredCompression          2
+2017-06-29 22:57:13      EnableParallelReload          1
+2017-06-29 22:57:13      ParallelizeQvdLoads           1
+2017-06-29 22:57:13      AutoSaveAfterReload           0
+2017-06-29 22:57:13      BackupBeforeReload            1
+2017-06-29 22:57:13      EnableFlushLog                0
+2017-06-29 22:57:13      SaveInfoWhenSavingFile        0
+2017-06-29 22:57:13      UserLogfileCharset            65001
+2017-06-29 22:57:13      OdbcLoginTimeout              -1
+2017-06-29 22:57:13      OdbcConnectionTimeout         -1
+2017-06-29 22:57:13      LongestPossibleLine           1048576
+2017-06-29 22:57:13      MaxCoreMask                   -1
+2017-06-29 22:57:13      ScriptWantsDbWrite            false
+2017-06-29 22:57:13      ScriptWantsExe                false
+2017-06-29 22:57:13      LogFile CodePage Used:        65001
+2017-06-29 22:57:13      UseMemoryFillPattern          1
+2017-06-29 22:57:13      ScriptMode                    Legacy (gives greater system access) (aka qv11 mode)
+2017-06-29 22:57:13      SequentialThreadCount         49
+2017-06-29 22:57:13      NumberOfCores (effective)     8
+2017-06-29 22:57:13      ReloadCodebase                Classic
+2017-06-29 22:57:13      Reload Executed By            DESKTOP-CTMAJRC\swaru
+2017-06-29 22:57:13      Process Executing             QlikView Desktop
+2017-06-29 22:57:13      Process ID                    4180
+2017-06-29 22:57:13 0002 SET ThousandSep=','
+2017-06-29 22:57:13 0003 SET DecimalSep='.'
+2017-06-29 22:57:13 0004 SET MoneyThousandSep=','
+2017-06-29 22:57:13 0005 SET MoneyDecimalSep='.'
+2017-06-29 22:57:13 0006 SET MoneyFormat='$#,##0.00;($#,##0.00)'
+2017-06-29 22:57:13 0007 SET TimeFormat='h:mm:ss TT'
+2017-06-29 22:57:13 0008 SET DateFormat='M/D/YYYY'
+2017-06-29 22:57:13 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2017-06-29 22:57:13 0010 SET FirstWeekDay=6
+2017-06-29 22:57:13 0011 SET BrokenWeeks=1
+2017-06-29 22:57:13 0012 SET ReferenceDay=0
+2017-06-29 22:57:13 0013 SET FirstMonthOfYear=1
+2017-06-29 22:57:13 0014 SET CollationLocale='en-US'
+2017-06-29 22:57:13 0015 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2017-06-29 22:57:13 0016 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2017-06-29 22:57:13 0017 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2017-06-29 22:57:13 0018 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2017-06-29 22:57:13 0020 OLEDB CONNECT32 TO ***
+2017-06-29 22:57:13 0023 SET vExcelFilePath = 'D:\NEU\Summer 2017\QlikView Developer Course\Data\'
+2017-06-29 22:57:13 0025 SET vXMLFilePath = 'D:\NEU\Summer 2017\QlikView Developer Course\Data\'
+2017-06-29 22:57:13 0027 Shippers_Name_Map:
+2017-06-29 22:57:13 0028 Mapping LOAD 
+2017-06-29 22:57:13 0029 	ShipperID,
+2017-06-29 22:57:13 0030 	CompanyName
+2017-06-29 22:57:13 0031 SQL SELECT *
+2017-06-29 22:57:13 0032 FROM Shippers
+2017-06-29 22:57:13      	2 fields found: ShipperID, CompanyName, 
+2017-06-29 22:57:13      3 lines fetched
+2017-06-29 22:57:13 0034 Shippers_Contact_Map:
+2017-06-29 22:57:13 0035 Mapping LOAD 
+2017-06-29 22:57:13 0036 	ShipperID,
+2017-06-29 22:57:13 0037     Phone
+2017-06-29 22:57:13 0038 SQL SELECT *
+2017-06-29 22:57:13 0039 FROM Shippers
+2017-06-29 22:57:14      	2 fields found: ShipperID, Phone, 
+2017-06-29 22:57:14      3 lines fetched
+2017-06-29 22:57:14 0041 Products_map:
+2017-06-29 22:57:14 0042 Mapping LOAD
+2017-06-29 22:57:14 0043 	ProductID,
+2017-06-29 22:57:14 0044 	UnitPrice
+2017-06-29 22:57:14 0045 SQL SELECT *
+2017-06-29 22:57:14 0046 FROM Products
+2017-06-29 22:57:14      	2 fields found: ProductID, UnitPrice, 
+2017-06-29 22:57:14      77 lines fetched
+2017-06-29 22:57:14 0049 Region_Map:
+2017-06-29 22:57:14 0050 Mapping LOAD 
+2017-06-29 22:57:14 0051 	RegionID,
+2017-06-29 22:57:14 0052 	RegionDescription
+2017-06-29 22:57:14 0053 SQL SELECT *
+2017-06-29 22:57:14 0054 FROM Region
+2017-06-29 22:57:14      	2 fields found: RegionID, RegionDescription, 
+2017-06-29 22:57:14      4 lines fetched
+2017-06-29 22:57:14 0056 Emp_territories_Map:
+2017-06-29 22:57:14 0057 Mapping LOAD 
+2017-06-29 22:57:14 0058 	EmployeeID,
+2017-06-29 22:57:14 0059     TerritoryID
+2017-06-29 22:57:14 0060 SQL SELECT *
+2017-06-29 22:57:14 0061 FROM EmployeeTerritories
+2017-06-29 22:57:15      	2 fields found: EmployeeID, TerritoryID, 
+2017-06-29 22:57:15      49 lines fetched
+2017-06-29 22:57:15 0064 Facts:
+2017-06-29 22:57:15 0065 LOAD 
+2017-06-29 22:57:15 0066 	CustomerID,
+2017-06-29 22:57:15 0067 	CustomerID as [Customer Record Counter],
+2017-06-29 22:57:15 0068     EmployeeID,
+2017-06-29 22:57:15 0069     EmployeeID as SalesEmployeeID,
+2017-06-29 22:57:15 0070     Freight,
+2017-06-29 22:57:15 0071     OrderDate,
+2017-06-29 22:57:15 0072     OrderID,
+2017-06-29 22:57:15 0073     RequiredDate,
+2017-06-29 22:57:15 0074     ShipAddress,
+2017-06-29 22:57:15 0075     ShipCity,
+2017-06-29 22:57:15 0076     ShipCountry,
+2017-06-29 22:57:15 0077     ShipName,
+2017-06-29 22:57:15 0078     ShippedDate,
+2017-06-29 22:57:15 0079     ShipPostalCode,
+2017-06-29 22:57:15 0080     ShipRegion,
+2017-06-29 22:57:15 0081     ShipVia,
+2017-06-29 22:57:15 0082     ApplyMap('Shippers_Name_Map', ShipVia, 'Shipper Not Found') as ShipperName,
+2017-06-29 22:57:15 0083     ApplyMap('Shippers_Contact_Map', ShipVia, 'Shipper Not Found') as ShipperContact
+2017-06-29 22:57:15 0084 SQL SELECT *
+2017-06-29 22:57:15 0085 FROM Orders
+2017-06-29 22:57:15      	18 fields found: CustomerID, Customer Record Counter, EmployeeID, SalesEmployeeID, Freight, OrderDate, OrderID, RequiredDate, ShipAddress, ShipCity, ShipCountry, ShipName, ShippedDate, ShipPostalCode, ShipRegion, ShipVia, ShipperName, ShipperContact, 
+2017-06-29 22:57:15      830 lines fetched
+2017-06-29 22:57:15 0088 Left Join(Facts)
+2017-06-29 22:57:15 0089 LOAD
+2017-06-29 22:57:15 0090 	*,
+2017-06-29 22:57:15 0091 	LineSalesAmount - [Cost of Goods Sold] as Margin
+2017-06-29 22:57:15 0092 LOAD 
+2017-06-29 22:57:15 0093 	Discount,
+2017-06-29 22:57:15 0094     OrderID,
+2017-06-29 22:57:15 0095     ProductID,
+2017-06-29 22:57:15 0096     Quantity,
+2017-06-29 22:57:15 0097     UnitPrice,
+2017-06-29 22:57:15 0098     UnitPrice * Quantity * (1-Discount) as LineSalesAmount,
+2017-06-29 22:57:15 0099     ApplyMap('Products_map', ProductID, 0) * Quantity as [Cost of Goods Sold]
+2017-06-29 22:57:15 0100 SQL SELECT *
+2017-06-29 22:57:15 0101 FROM `Order Details`
+2017-06-29 22:57:15      	8 fields found: Discount, OrderID, ProductID, Quantity, UnitPrice, LineSalesAmount, Cost of Goods Sold, Margin, 
+2017-06-29 22:57:15      2,155 lines fetched
+2017-06-29 22:57:15      Joining/Keeping
+2017-06-29 22:57:15 0103 [Order Aggr]:
+2017-06-29 22:57:15 0104 LOAD 
+2017-06-29 22:57:15 0105 	Distinct
+2017-06-29 22:57:15 0106 	OrderID,
+2017-06-29 22:57:15 0107 	1 as [Order Record Counter],
+2017-06-29 22:57:15 0108 	sum(LineSalesAmount) as [Order Total]
+2017-06-29 22:57:15 0109 Resident Facts
+2017-06-29 22:57:15 0110 Group by OrderID
+2017-06-29 22:57:15      	3 fields found: OrderID, Order Record Counter, Order Total, 
+2017-06-29 22:57:15      830 lines fetched
+2017-06-29 22:57:15 0113 Products:
+2017-06-29 22:57:15 0114 LOAD
+2017-06-29 22:57:15 0115 	CategoryID,
+2017-06-29 22:57:15 0116     Discontinued,
+2017-06-29 22:57:15 0117     ProductID,
+2017-06-29 22:57:15 0118     ProductName,
+2017-06-29 22:57:15 0119     QuantityPerUnit,
+2017-06-29 22:57:15 0120     ReorderLevel,
+2017-06-29 22:57:15 0121     SupplierID,
+2017-06-29 22:57:15 0122     UnitPrice as CatalogPrice,
+2017-06-29 22:57:15 0123     UnitsInStock,
+2017-06-29 22:57:15 0124     UnitsOnOrder
+2017-06-29 22:57:15 0125 SQL SELECT *
+2017-06-29 22:57:15 0126 FROM Products
+2017-06-29 22:57:16      	10 fields found: CategoryID, Discontinued, ProductID, ProductName, QuantityPerUnit, ReorderLevel, SupplierID, CatalogPrice, UnitsInStock, UnitsOnOrder, 
+2017-06-29 22:57:16      77 lines fetched
+2017-06-29 22:57:16 0130 Employees:
+2017-06-29 22:57:16 0131 LOAD EmployeeID, ApplyMap('Emp_territories_Map', EmployeeID, 'Employee Territory NF') as TerritoryID, LastName, FirstName, Title, TitleOfCourtesy, BirthDate, HireDate, EndDate, 
+2017-06-29 22:57:16 0132      Address, City, Region, PostalCode, Country, HomePhone, Extension, Photo, Notes, ReportsTo, 
+2017-06-29 22:57:16 0133      PhotoPath
+2017-06-29 22:57:16 0134 FROM [D:\NEU\Summer 2017\QlikView Developer Course\Data\Employees.xlsx]
+2017-06-29 22:57:16 0135 (ooxml, embedded labels, table is Employees)
+2017-06-29 22:57:16      	20 fields found: EmployeeID, TerritoryID, LastName, FirstName, Title, TitleOfCourtesy, BirthDate, HireDate, EndDate, Address, City, Region, PostalCode, Country, HomePhone, Extension, Photo, Notes, ReportsTo, PhotoPath, 
+2017-06-29 22:57:16      11 lines fetched
+2017-06-29 22:57:16 0139 Customers:
+2017-06-29 22:57:16 0140 LOAD
+2017-06-29 22:57:16 0141 	Address as [Customer Address],
+2017-06-29 22:57:16 0142     City as [Customer City],
+2017-06-29 22:57:16 0143     CompanyName,
+2017-06-29 22:57:16 0144     ContactName,
+2017-06-29 22:57:16 0145     ContactTitle,
+2017-06-29 22:57:16 0146     Country as [Customer Country],
+2017-06-29 22:57:16 0147     CustomerID,
+2017-06-29 22:57:16 0148     Fax,
+2017-06-29 22:57:16 0149     Phone,
+2017-06-29 22:57:16 0150     PostalCode as [Customer PostalCode],
+2017-06-29 22:57:16 0151     Region as [Customer Region]
+2017-06-29 22:57:16 0152 SQL SELECT *
+2017-06-29 22:57:16 0153 FROM Customers
+2017-06-29 22:57:16      	11 fields found: Customer Address, Customer City, CompanyName, ContactName, ContactTitle, Customer Country, CustomerID, Fax, Phone, Customer PostalCode, Customer Region, 
+2017-06-29 22:57:16      91 lines fetched
+2017-06-29 22:57:16 0157 QUALIFY *
+2017-06-29 22:57:16 0158 UNQUALIFY SupplierID
+2017-06-29 22:57:16 0159 Suppliers:
+2017-06-29 22:57:16 0160 LOAD 
+2017-06-29 22:57:16 0161 	SupplierID,
+2017-06-29 22:57:16 0162     CompanyName,
+2017-06-29 22:57:16 0163     ContactName,
+2017-06-29 22:57:16 0164     ContactTitle,
+2017-06-29 22:57:16 0165     Address,
+2017-06-29 22:57:16 0166     City,
+2017-06-29 22:57:16 0167     PostalCode,
+2017-06-29 22:57:16 0168     Country,
+2017-06-29 22:57:16 0169     Phone,
+2017-06-29 22:57:16 0170     Region,
+2017-06-29 22:57:16 0171     HomePage,
+2017-06-29 22:57:16 0172     Fax,
+2017-06-29 22:57:16 0173     %Key_dataroot_72A09EACE72FB6DB    
+2017-06-29 22:57:16 0174 FROM [D:\NEU\Summer 2017\QlikView Developer Course\Data\Suppliers.xml] (XmlSimple, Table is [dataroot/Suppliers])
+2017-06-29 22:57:16      	13 fields found: SupplierID, Suppliers.CompanyName, Suppliers.ContactName, Suppliers.ContactTitle, Suppliers.Address, Suppliers.City, Suppliers.PostalCode, Suppliers.Country, Suppliers.Phone, Suppliers.Region, Suppliers.HomePage, Suppliers.Fax, Suppliers.%Key_dataroot_72A09EACE72FB6DB, 
+2017-06-29 22:57:16      29 lines fetched
+2017-06-29 22:57:16 0175 UNQUALIFY *
+2017-06-29 22:57:16 0179 Left Join(Facts)
+2017-06-29 22:57:16 0180 LOAD
+2017-06-29 22:57:16 0181 	EmployeeID,
+2017-06-29 22:57:16 0182 	FirstName &' '& LastName as [Sales Person],
+2017-06-29 22:57:16 0183 	Title as [Sales Title]
+2017-06-29 22:57:16 0184 Resident Employees
+2017-06-29 22:57:16 0185 Where Exists(SalesEmployeeID,EmployeeID)
+2017-06-29 22:57:16      	3 fields found: EmployeeID, Sales Person, Sales Title, 
+2017-06-29 22:57:16      11 lines fetched
+2017-06-29 22:57:16      Joining/Keeping
+2017-06-29 22:57:16 0188 Left Join(Products)
+2017-06-29 22:57:16 0189 LOAD CategoryID,
+2017-06-29 22:57:16 0190     CategoryName,
+2017-06-29 22:57:16 0191     Description
+2017-06-29 22:57:16 0192 SQL SELECT *
+2017-06-29 22:57:16 0193 FROM Categories
+2017-06-29 22:57:16      	3 fields found: CategoryID, CategoryName, Description, 
+2017-06-29 22:57:16      8 lines fetched
+2017-06-29 22:57:16      Joining/Keeping
+2017-06-29 22:57:16 0197 Left Join(Employees)
+2017-06-29 22:57:16 0198 LOAD 
+2017-06-29 22:57:16 0199 	RegionID,
+2017-06-29 22:57:16 0200 	ApplyMap('Region_Map', RegionID, 'Employee Region NF') as [Employee Region],
+2017-06-29 22:57:16 0201     TerritoryDescription,
+2017-06-29 22:57:16 0202     TerritoryID
+2017-06-29 22:57:16 0203 SQL SELECT *
+2017-06-29 22:57:16 0204 FROM Territories
+2017-06-29 22:57:17      	4 fields found: RegionID, Employee Region, TerritoryDescription, TerritoryID, 
+2017-06-29 22:57:17      53 lines fetched
+2017-06-29 22:57:17      Joining/Keeping
+2017-06-29 22:57:17 0207 Concatenate(Products)
+2017-06-29 22:57:17 0208 LOAD ProductID, 
+2017-06-29 22:57:17 0209      ProductName, 
+2017-06-29 22:57:17 0210      SupplierID, 
+2017-06-29 22:57:17 0211      CategoryID, 
+2017-06-29 22:57:17 0212      QuantityPerUnit, 
+2017-06-29 22:57:17 0213      UnitPrice as CatalogPrice, 
+2017-06-29 22:57:17 0214      UnitsInStock, 
+2017-06-29 22:57:17 0215      UnitsOnOrder, 
+2017-06-29 22:57:17 0216      ReorderLevel
+2017-06-29 22:57:17 0217 FROM
+2017-06-29 22:57:17 0218 [D:\NEU\Summer 2017\QlikView Developer Course\Data\New Products.xlsx]
+2017-06-29 22:57:17 0219 (ooxml, embedded labels, table is [New Products])
+2017-06-29 22:57:17      	9 fields found: ProductID, ProductName, SupplierID, CategoryID, QuantityPerUnit, CatalogPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, 
+2017-06-29 22:57:17      79 lines fetched
+2017-06-29 22:57:17 0246 Forecast:
+2017-06-29 22:57:17 0247 CrossTable([Sales Year], [Sales Forecast], 3)
+2017-06-29 22:57:17 0248 LOAD ProductID, 
+2017-06-29 22:57:17 0249      EmployeeID, 
+2017-06-29 22:57:17 0250      CustomerID, 
+2017-06-29 22:57:17 0251      [1996], 
+2017-06-29 22:57:17 0252      [1997], 
+2017-06-29 22:57:17 0253      [1998]
+2017-06-29 22:57:17 0254 FROM
+2017-06-29 22:57:17 0255 [D:\NEU\Summer 2017\QlikView Developer Course\Data\Sales_Forecast.xls]
+2017-06-29 22:57:17 0256 (biff, embedded labels, table is [Sales Forecast$])
+2017-06-29 22:57:17      	6 fields found: ProductID, EmployeeID, CustomerID, 1996, 1997, 1998, 	5 fields found: ProductID, EmployeeID, CustomerID, Sales Year, Sales Forecast, 
+2017-06-29 22:57:17      27 lines fetched
+2017-06-29 22:57:17      9 lines fetched
+2017-06-29 22:57:17 0258 [Sales Forecast]:
+2017-06-29 22:57:17 0259 LOAD *,
+2017-06-29 22:57:17 0260 	ProductID &'|'& EmployeeID &'|'& CustomerID &'|'& [Sales Year] as [%LinkTableKey]
+2017-06-29 22:57:17 0261 Resident Forecast
+2017-06-29 22:57:17      	6 fields found: ProductID, EmployeeID, CustomerID, Sales Year, Sales Forecast, %LinkTableKey, 
+2017-06-29 22:57:17      27 lines fetched
+2017-06-29 22:57:17 0263 DROP Table Forecast
+2017-06-29 22:57:17 0265 Facts2:
+2017-06-29 22:57:17 0266 LOAD *,
+2017-06-29 22:57:17 0267 	ProductID &'|'& EmployeeID &'|'& CustomerID &'|'& [Sales Year] as [%LinkTableKey]
+2017-06-29 22:57:17 0268 LOAD *,
+2017-06-29 22:57:17 0269 	Year(OrderDate) as [Sales Year]
+2017-06-29 22:57:17 0270 Resident Facts
+2017-06-29 22:57:17      	29 fields found: EmployeeID, OrderID, CustomerID, Customer Record Counter, SalesEmployeeID, Freight, OrderDate, RequiredDate, ShipAddress, ShipCity, ShipCountry, ShipName, ShippedDate, ShipPostalCode, ShipRegion, ShipVia, ShipperName, ShipperContact, Discount, ProductID, Quantity, UnitPrice, LineSalesAmount, Cost of Goods Sold, Margin, Sales Person, Sales Title, Sales Year, %LinkTableKey, 
+2017-06-29 22:57:17      2,652 lines fetched
+2017-06-29 22:57:17 0272 DROP Table Facts
+2017-06-29 22:57:17 0274 RENAME table Facts2 to Facts
+2017-06-29 22:57:17 0276 [Link Table]:
+2017-06-29 22:57:17 0277 LOAD Distinct
+2017-06-29 22:57:17 0278 	[%LinkTableKey],
+2017-06-29 22:57:17 0279 	[%LinkTableKey] as [%TempLinkTableKey],
+2017-06-29 22:57:17 0280 	ProductID, 
+2017-06-29 22:57:17 0281 	EmployeeID, 
+2017-06-29 22:57:17 0282    	CustomerID,
+2017-06-29 22:57:17 0283    	[Sales Year]
+2017-06-29 22:57:17 0284 Resident Facts
+2017-06-29 22:57:17      	6 fields found: %LinkTableKey, %TempLinkTableKey, ProductID, EmployeeID, CustomerID, Sales Year, 
+2017-06-29 22:57:17      2,133 lines fetched
+2017-06-29 22:57:17 0285 Concatenate([Link Table])
+2017-06-29 22:57:17 0286 LOAD Distinct
+2017-06-29 22:57:17 0287 	[%LinkTableKey],
+2017-06-29 22:57:17 0288 	ProductID, 
+2017-06-29 22:57:17 0289 	EmployeeID, 
+2017-06-29 22:57:17 0290    	CustomerID,
+2017-06-29 22:57:17 0291    	[Sales Year]
+2017-06-29 22:57:17 0292 Resident [Sales Forecast]
+2017-06-29 22:57:17 0293 Where not Exists([%TempLinkTableKey], [%LinkTableKey])
+2017-06-29 22:57:17      	5 fields found: %LinkTableKey, ProductID, EmployeeID, CustomerID, Sales Year, 
+2017-06-29 22:57:17      2,160 lines fetched
+2017-06-29 22:57:17 0295 DROP Field [%TempLinkTableKey] From [Link Table]
+2017-06-29 22:57:17 0297 DROP Fields ProductID, 
+2017-06-29 22:57:17 0298 			EmployeeID, 
+2017-06-29 22:57:17 0299    			CustomerID,
+2017-06-29 22:57:17 0300    			[Sales Year] From Facts
+2017-06-29 22:57:17 0302 DROP Fields ProductID, 
+2017-06-29 22:57:17 0303 			EmployeeID, 
+2017-06-29 22:57:17 0304    			CustomerID,
+2017-06-29 22:57:17 0305    			[Sales Year] From [Sales Forecast]
+2017-06-29 22:57:17 0307 DateRange:
+2017-06-29 22:57:17 0308 LOAD
+2017-06-29 22:57:17 0309 	min(OrderDate) as MinDate,
+2017-06-29 22:57:17 0310 	max(OrderDate) as MaxDate
+2017-06-29 22:57:17 0311 Resident Facts
+2017-06-29 22:57:17      	2 fields found: MinDate, MaxDate, 
+2017-06-29 22:57:17      1 lines fetched
+2017-06-29 22:57:17 0313 LET vMinDate = Peek('MinDate',0,'DateRange')
+2017-06-29 22:57:17 0314 LET vMaxDate = Peek('MaxDate',0,'DateRange')
+2017-06-29 22:57:17 0316 TempCalDate:
+2017-06-29 22:57:17 0317 LOAD
+2017-06-29 22:57:17 0318 	Date(35250 + RowNo() -1) as CalDate
+2017-06-29 22:57:17 0319 AutoGenerate 35921 - 35250 +1
+2017-06-29 22:57:17      	1 fields found: CalDate, 
+2017-06-29 22:57:17      672 lines fetched
+2017-06-29 22:57:17 0321 Calendar:
+2017-06-29 22:57:17 0322 LOAD
+2017-06-29 22:57:17 0323 	CalDate as OrderDate,
+2017-06-29 22:57:17 0324 	day(CalDate) as Day,
+2017-06-29 22:57:17 0325 	Year(CalDate) as Year,
+2017-06-29 22:57:17 0326 	Month(CalDate) as Month,
+2017-06-29 22:57:17 0327 	week(CalDate) as Week,
+2017-06-29 22:57:17 0328 	'Q'& Ceil(Month(CalDate)/3) as Quarter,
+2017-06-29 22:57:17 0329 	date(MonthStart(CalDate),'MMM-YYYY') as MonthYear
+2017-06-29 22:57:17 0330 Resident TempCalDate
+2017-06-29 22:57:17 0331 Order By CalDate asc
+2017-06-29 22:57:17      	7 fields found: OrderDate, Day, Year, Month, Week, Quarter, MonthYear, 
+2017-06-29 22:57:17      672 lines fetched
+2017-06-29 22:57:17 0334 DROP Tables DateRange, TempCalDate
+2017-06-29 22:57:17 0336 Calendar:
+2017-06-29 22:57:17 0337 LOAD
+2017-06-29 22:57:17 0338 	CalDate as OrderDate,
+2017-06-29 22:57:17 0339 	day(CalDate) as Day,
+2017-06-29 22:57:17 0340 	Year(CalDate) as Year,
+2017-06-29 22:57:17 0341 	Month(CalDate) as Month,
+2017-06-29 22:57:17 0342 	week(CalDate) as Week,
+2017-06-29 22:57:17 0343 	'Q'& Ceil(Month(CalDate)/3) as Quarter,
+2017-06-29 22:57:17 0344 	date(MonthStart(CalDate),'MMM-YYYY') as MonthYear
+2017-06-29 22:57:17 0348 LOAD
+2017-06-29 22:57:17 0349 	Date(mindate + IterNo()) as CalDate,
+2017-06-29 22:57:17 0350 	maxdate
+2017-06-29 22:57:17 0351 While mindate + IterNo() <= maxdate
+2017-06-29 22:57:17 0355 LOAD
+2017-06-29 22:57:17 0356 	min(FieldValue('OrderDate', RecNo())) as mindate,
+2017-06-29 22:57:17 0357 	max(FieldValue('OrderDate', RecNo())) as maxdate
+2017-06-29 22:57:17 0358 AutoGenerate FieldValueCount('OrderDate')
+2017-06-29 22:57:17      	7 fields found: OrderDate, Day, Year, Month, Week, Quarter, MonthYear, 
+2017-06-29 22:57:17      1,343 lines fetched
+2017-06-29 22:57:17      Execution finished.
