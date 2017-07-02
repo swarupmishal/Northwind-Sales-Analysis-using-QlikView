@@ -1,4 +1,4 @@
-# Sales Analysis using QlikView
+# Northwind Sales Analysis using QlikView
 ![alt text](https://github.com/swarupmishal/Sales-Analysis-using-QlikView/blob/master/Extras/sales-forecasting-250x250.jpg)
 
 The purpose of the project is to understand all the functionalities of QlikView.
