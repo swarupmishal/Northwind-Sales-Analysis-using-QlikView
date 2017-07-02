@@ -24,3 +24,14 @@ Here I have tried to make use to all the important functionalities provided by Q
 13. Loaded data from QVDs
 14. Added Metadata and Section Access for Security
 
+Because of the section access we have implemented, to open the app Northwind Sales.qvw we will have to login with either of the 3 USERIDs,
+1.  USERID- ADMIN
+    PASSWORD- PASS
+    ADMIN has got all access.
+2.  USERID- USER1
+    PASSWORD- PASS1
+    USER1 can only see data of USA and UK. USER1 has no access to City.
+3.  USERID- USER2
+    PASSWORD- PASS2
+    USER2 can only see data for UK.
+    
